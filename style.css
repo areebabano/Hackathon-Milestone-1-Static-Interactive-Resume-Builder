@@ -1,0 +1,225 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* style Header  */
+
+header{
+    display:flex;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* style profile image  */
+
+header img{
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px darkgoldenrod; 
+}
+
+/* style header text  */
+
+.header-text h1{
+    margin: 0%;
+    font-size: 28px;
+}
+
+
+.header-text p{
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+.header-text .portfolio_link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: darkgoldenrod; 
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .header-text .portfolio_link:hover {
+    background-color: #0056b3; 
+  }
+
+/* style education section */
+.education {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header style */
+  .education h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: black;
+  }
+  
+  /* Education item style */
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .education-item h3 {
+    font-size: 22px;
+    margin: 0 0 10px;
+    color: darkgoldenrod
+  }
+  
+  .education-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .education-item p strong {
+    color: #333; /* Dark color for labels */
+  }
+
+/* Style for the Skills Section */
+#skills {
+    background-color: #fff;
+    display: none;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Skills section header style */
+  #skills h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: black;
+  }
+  
+  /* Skills list styling */
+  #skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills-list li {
+    background: rgb(220, 194, 117);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+
+/* Button style */
+button#toggle-button {
+    /* display: inline-block; */
+    margin-top: 10px;
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button#toggle-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* style experience section  */
+  .experience {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* H1 style */
+  .experience h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: black;
+  }
+
+   /* Experience item style */
+   .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item h3 {
+    font-size: 22px;
+    margin: 0 0 10px;
+    color: darkgoldenrod
+  }
+  
+  .experience-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .experience-item p strong {
+    color: #333; /* Dark color for labels */
+  }
+
+  footer{
+    padding: 20px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .footer-text .linkedin-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #0056b3; 
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .footer-text .linkedin-link:hover {
+    background-color: darkgoldenrod; 
+  }
+
+
+
+  /* #skills{
+    display: none;
+  } */
+  
+  /* Responsive design for smaller screens
+  @media (max-width: 600px) {
+    .education {
+      padding: 15px;
+    }
+  
+    .education h1 {
+      font-size: 24px;
+    }
+  
+    .education-item h3 {
+      font-size: 20px;
+    }
+  
+    .education-item p {
+      font-size: 14px;
+    }
+  }
+   */
